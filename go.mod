@@ -1,4 +1,4 @@
-module github.com/elastic/crd-ref-docs
+module github.com/PetrMc/crd-ref-docs
 
 go 1.24.0
 
@@ -10,6 +10,7 @@ require k8s.io/code-generator v0.34.0-beta.0
 
 require (
 	github.com/Masterminds/sprig v2.22.0+incompatible
+	github.com/elastic/crd-ref-docs v0.2.0
 	github.com/goccy/go-yaml v1.18.0
 	github.com/spf13/cobra v1.9.1
 	github.com/stretchr/testify v1.10.0
@@ -54,7 +55,7 @@ require (
 	golang.org/x/net v0.42.0 // indirect
 	golang.org/x/sync v0.16.0 // indirect
 	golang.org/x/text v0.27.0 // indirect
-	golang.org/x/tools/go/packages/packagestest v0.1.1-deprecated // indirect
+	golang.org/x/tools/go/expect v0.1.0-deprecated // indirect
 	google.golang.org/protobuf v1.36.5 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
