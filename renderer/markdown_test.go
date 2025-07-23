@@ -19,7 +19,7 @@ package renderer
 import (
 	"testing"
 
-	"github.com/elastic/crd-ref-docs/config"
+	"github.com/PetrMc/crd-ref-docs/config"
 	"github.com/stretchr/testify/assert"
 )
 
