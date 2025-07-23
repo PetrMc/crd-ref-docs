@@ -4,8 +4,6 @@ go 1.24.0
 
 toolchain go1.24.5
 
-replace k8s.io/code-generator => k8s.io/code-generator v0.34.0-beta.0
-
 require k8s.io/code-generator v0.34.0-beta.0
 
 require (
